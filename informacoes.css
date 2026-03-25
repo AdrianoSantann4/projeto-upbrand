@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    background-color: #f4f4f4;
+
+}
+
+.logo {
+    width: 160px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+li a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: red;
+    cursor: pointer;
+}
+.titulo{
+   margin-left: 130px;
+    margin-top: 80px;
+}
+.descricao{
+    margin-left: 60px;
+    margin: 20px;
+    max-width: 500px;
+}
+.container{
+     display: flex;
+     gap: 10px;
+     padding: 20px;
+    
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+    
+}
+
