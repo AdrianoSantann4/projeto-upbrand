@@ -27,7 +27,8 @@ li :hover {
 }
 
 body{
-background-image: url(img/backgroundup.png);
+background-image:linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.692)), url(img/backgroundup.png);
+background-size: cover;
 color: white;
 font-family: inter,robot;
 padding: 40px 20px;
