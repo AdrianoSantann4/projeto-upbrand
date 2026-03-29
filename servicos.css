@@ -41,23 +41,23 @@ h1{
 }
 
 body > div { 
-    display: inline-block;
+    display: inline-block; /*alinha horizontalmente*/
     vertical-align: top;
     background-color: #ff3131; 
     color: white;
-    width: calc(20% - 50px); 
+    width: calc(20% - 50px); /*divide em 4 colunas com margem*/
     margin: 50px;
     padding: 1% 10px;
     text-align: center;
     min-height: 200px;
 }
-h2 {
+h2 {/*estilo dos titulos dentro dos cards*/
     font-size: 17.6;
     margin-bottom: 20px;
-    height: 50px;
+    height: 50px; /*alinha os titulos*/
 }
 
-p {
+p {/*estilo dos paragrafos nos cards*/
     font-size: 14.4px;
     text-align: center;
 }
