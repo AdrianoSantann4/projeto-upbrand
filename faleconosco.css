@@ -1,0 +1,29 @@
+*{
+margin: 0;
+padding: 0;
+}
+.logo{
+    width: 160px;
+}
+nav,ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-between;
+    background-color: black;
+    padding-top: 10px;
+}
+
+li,a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+li :hover{
+    cursor:pointer;
+    color:red;
+
+}
