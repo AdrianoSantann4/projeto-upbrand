@@ -46,6 +46,9 @@ li :hover {
 h1 {
     text-transform: uppercase;
     padding: 20px;
+    text-decoration: overline;
+    text-decoration-color: red;
+    text-decoration-thickness: 5px;
 }
 
 .container {
