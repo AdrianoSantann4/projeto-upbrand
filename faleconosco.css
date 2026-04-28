@@ -25,11 +25,12 @@ nav,ul
 li,a{
     color: white;
     text-decoration: none;
+    align-items: center;
     padding: 10px;
+}
 
-    span{
-        color: red;
-    }
+span{
+    color: rgb(217, 32, 37);
 }
 
 li :hover{
