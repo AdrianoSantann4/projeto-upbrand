@@ -16,7 +16,7 @@
             <li><a href="index.html">Inicio</a></li>
             <li><a href="servicos.html">Serviços</a></li>
             <li><a href="sobre-nos.html">Sobre Nós</a></li>
-            <li><a href="faleconosco.html">Fale conosco</a></li>
+            <li><a href="faleconosco.html"><span>Fale conosco</span></a></li>
         </ul>
         
         <ul>
@@ -31,7 +31,7 @@
             
             <div class="input-box"><input type="text" placeholder="Nome:" name="nome" required></div>
             <div class="input-box"><input type="email" placeholder="Email:" name="email" required></div>
-            <div class="input-box"><input type="number" placeholder="DDD+Telefone:" name="telefone" required></div>
+            <div class="input-box"><input type="tel" placeholder="DDD+Telefone:" name="telefone" inputmode="numeric" pattern="[0-9]{8,}" title="Digite apenas números" required></div>
             <div class="input-box"><input type="text" placeholder="Nome da empresa:" name="empresa" required></div>
             <div class="input-box"><textarea id="mensagem" placeholder="Sobre o projeto:" name="mensagem" rows="5" required></textarea></div>
             <div><input type="submit" id="btn-submit" value="Enviar"></div>
@@ -39,5 +39,6 @@
     
     </main>
 
+    <script src="script.js"></script>
 </body>
 </html>
