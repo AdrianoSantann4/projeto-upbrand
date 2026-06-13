@@ -2,44 +2,82 @@
     padding:0;
     margin:0;
 }
-nav,
-ul {
+
+body{
+    background-color: #080808;
+    font-family: roboto, inter, sans-serif, Arial, Helvetica;
+}
+
+/*estilo menu nav*/
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 13px;
+    width: 100%;
+    padding: 10px 0;
+     
+}
+
+
+.menu-list{
+    color: var(--text-color);
     list-style: none;
     display: flex;
-    flex-direction: row;
+    gap: 20px;
+    margin-left: auto;
+    padding-right: 70px;
+    cursor: pointer;
+}
+
+.menu-list a{
     text-decoration: none;
     justify-content: end;
     padding-top: 10px;
-
-}
-
-li a {
-    padding: 10px;
     color: white;
-    text-decoration: none;
 
 }
 
-li :hover {
+
+.menu-list a:hover {
     cursor: pointer;
     color: red;
     transition: 0.4s;
 }
 
-body{
-background-image:linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.692)), url(../img/backgroundup.png);
-background-size: cover;
-color: white;
-font-family: inter,robot;
-padding: 40px 20px;
+
+/*estilo hero section*/
+.background-hero{
+background-image: url(../img/background.png);
+background-size: max(100vw, 100vh);
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+padding: 90px 0px;
+padding-top: 0px;
 text-align:center;
 }
 
-img{
-display: block;  
+.logo{
+width: 600px;
+margin: 20px auto;
+padding-top: 40px;
+}
+
+.container-hero{
+display: flex;
+flex-direction: row;
+gap: 50px;
+justify-content: center;
+padding-top: 80px;
 
 }
-p{
+
+
+.hero-text{
 max-width: 600px;
 font-size: 18px;
 line-height: 1.5;
@@ -49,18 +87,100 @@ color:white;
 text-align: left;
 }
 
-button{
+.btn-index{
 background-color: #ff0000;
 border: none;
 border-radius: 30px;
-padding: 15px 40px;
+padding: 8px 40px;
 color: white;
 font-size: 18px;
 font-weight: bold;
-cursor: pointer;
-transition:background-color 0.3s;
+height: fit-content;
+
 }
 
-button:hover{
-    background-color: #cc0000;
+.btn-index:hover{
+    background-color: #772424;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.hero-btn-container{
+    display: flex;
+    align-items: center;
+}
+/*estilo section sobre nos e resultados*/
+
+
+.title-resultados{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+.empresas-imagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    gap: 50px;
+    
+}
+
+.empresas{
+    border-radius: 100px;
+    padding: 0 80px;
+    
+}
+
+.empresas:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(255,0,0,.15);
+    transition: 0.2s;
+}
+
+
+/*style section informacoes*/
+
+.section-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 270px;
+
+}
+
+.title-info{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.text-info{
+    color: white;
+    font-size: 18px;
+    line-height: 1.9;
+    width: 500px;
+}
+
+/*estilo footer*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+
+}
+.container-footer{
+    color: rgb(159, 155, 155);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
