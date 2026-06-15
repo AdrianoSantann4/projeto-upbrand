@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Upbrand - Marketing Digital</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -19,15 +19,26 @@
 </head>
 
 <body>
+
+   
     <nav class="menu">
+         <button class="menu-hamburguer">
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none"  width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="white">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+
+            </button>
+
         <img src="img/UPbrand negativo.png" alt="'Logo Upbrand" class="logo-menu" width="100px">
         <ul class="menu-list">
             <li><a href="index.html">Home</a></li>
             <li><a href="#">Serviços</a></li>
-            <li><a href="#">Fale conosco</a></li>
-            <li><a href="#">Informações</a></li>
-            <li><a href="pages/cases.html">Cases</a></li>
-            <li><a href="#">Nossa Equipe</a></li>
+            <li><a href="cases.html">Cases</a></li>
+             <li><a href="#">Fale conosco</a></li>
+            
         </ul>
     </nav>
 
@@ -91,7 +102,31 @@
             </div>
 
             <button class="btn-index">Conheça nossos serviços</button>
+        </section>
 
+            <section class="equipe">
+                <h2>Conheça a equipe</h2>
+                <div class="equipe-container">
+                <div>
+                    <img src="img/fotobruna.jpeg" alt="Bruna" width="100px" class="equipe-img">
+                    <p class="equipe-text"><span>Bruna</span>, Estrategista Digital.</p>
+                  
+                </div>
+
+                <div>
+                    <img src="img/fotoclarissa.jpeg" alt="Clarissa" width="100px" class="equipe-img">
+                    <p class="equipe-text"><span>Clarissa</span>, Social Media Manager.</p>
+                    
+                </div>
+
+                <div>
+                    <img src="img/fotojoao.jpeg" alt="João" width="100px" class="equipe-img">
+                    <p class="equipe-text"><span>João</span>, Designer e Desenvolvedor Web.</p>
+                    
+                </div>
+                </div>
+
+            </section>
 
     </main>
 
@@ -106,5 +141,7 @@
     </footer>
 
 </body>
+
+ <script src="menu.js"></script>
 
 </html>
