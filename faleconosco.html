@@ -6,32 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Upbrand - Fale Conosco</title>
     <link rel="stylesheet" href="faleconosco.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parisienne&family=Poppins:ital,wght@0,100;0,200;0,30OTH;０,4００;０,5００;０,6００;０,7００;０,8００;０,9００;１,1００;１,2００;１,3０９;１,4００;１,5０５;１,6０６;１,7５５５５５５５５５５５５５５５５５５５５５５５５５５５５５５５５３３３３３３３３３３３３３３３３３３３３３３３３３３３３３４４４４４４４４４４４４４４４４４４４４ＴＨＩＳ IS A TEST
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parisienne&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu+Condensed&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <nav>
-        <img src="img/UPbrand negativo.png" alt="logo Upbrand" class="logo">
-    
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="servicos.html">Serviços</a></li>
-            <li><a href="sobre-nos.html">Sobre Nós</a></li>
-            <li><a href="faleconosco.html"><span>Fale conosco</span></a></li>
-        </ul>
-        
-        <ul>
-            <li><a href="informacoes.html">Informações</a></li>
+    <nav class="menu">
+        <button class="menu-hamburguer">
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none"  width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="white">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+
+            </button>
+        <img src="img/UPbrand negativo.png" alt="'Logo Upbrand" class="logo-menu" width="100px">
+        <ul class="menu-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Serviços</a></li>
             <li><a href="cases.html">Cases</a></li>
-            <li><a href="nossaequipe.html">Nossa Equipe</a></li>
+             <li><a href="#">Fale conosco</a></li>
+            
         </ul>
     </nav>
-    <h1>Fale Conosco</h1>
+    
     <main class="container">
-        <form action="#" method="post">
-            
+        <h1>Fale Conosco</h1>    
+        <form class="formulario" action="#" method="post">    
             <div class="input-box"><input type="text" placeholder="Nome:" name="nome" required></div>
             <div class="input-box"><input type="email" placeholder="Email:" name="email" required></div>
-            <div class="input-box"><input type="tel" placeholder="DDD+Telefone:" name="telefone" inputmode="numeric" pattern="[0-9]{8,}" title="Digite apenas números" required></div>
+            <div class="input-box"><input type="number" placeholder="DDD+Telefone:" name="telefone" required></div>
             <div class="input-box"><input type="text" placeholder="Nome da empresa:" name="empresa" required></div>
             <div class="input-box"><textarea id="mensagem" placeholder="Sobre o projeto:" name="mensagem" rows="5" required></textarea></div>
             <div><input type="submit" id="btn-submit" value="Enviar"></div>
@@ -39,6 +52,5 @@
     
     </main>
 
-    <script src="script.js"></script>
 </body>
 </html>
