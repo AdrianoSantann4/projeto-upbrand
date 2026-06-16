@@ -147,3 +147,68 @@ h1{
     align-items: center;
 
 }
+
+/* Media queries responsivos para faleconosco */
+@media (max-width: 600px) {
+    /* Menu */
+ * {
+        box-sizing: border-box;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .menu-hamburguer {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+    }
+
+    .menu-list.active {
+        display: flex;
+    }
+
+    .menu-list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        gap: 20px;
+        padding: 20px 0;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+    /* Container */
+    .container{
+        max-width: 95%;
+        margin: 16px auto;
+        padding: 18px;
+        border-radius: 18px;
+    }
+
+    h1{
+        font-size: 32px;
+        margin: 12px 0;
+    }
+
+    /* Form */
+    .formulario{ max-width: 100%; }
+    .input-box{ margin: 6px 0; }
+    .input-box input, textarea{ padding: 10px; font-size: 15px; }
+
+    .logo-menu { width: 80px; }
+    .menu { padding: 12px 8px; }
+
+    /* Footer spacing */
+    .footer{ margin-top: 40px; }
+}
+
