@@ -1,0 +1,37 @@
+{
+  "contatos": [
+    {
+      "id": "1",
+      "nome": "João Silva",
+      "email": "joao.silva@example.com",
+      "telefone": "+55 11 99999-9999",
+      "empresa": "Upbrand",
+      "mensagem": "Gostaria de saber mais sobre serviços de branding."
+    },
+    {
+      "id": "2",
+      "nome": "Maria Oliveira",
+      "email": "maria.oliveira@example.com",
+      "telefone": "7TV 6GFBTYN+55 21 98888-8888",
+      "empresa": "Empresa XYZ",
+      "mensagem": "Quero um orçamento para redesign de site."
+    },
+    {
+      "nome": "gdftuygi8ou9i0o-p=",
+      "email": "fchguijo$#@fgtyhuio",
+      "telefone": "3456789",
+      "empresa": "cfghjklfghuio",
+      "mensagem": "fhgjk",
+      "id": "ePrWakJPf3U"
+    },
+    {
+      "nome": "Adauto Adriano",
+      "email": "joao.guioliveira13@gmail.com",
+      "telefone": "81996243583",
+      "empresa": "A&J Informática",
+      "mensagem": "Quero uma nova identidade visual!",
+      "id": "YKkV2aIlUnU"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
