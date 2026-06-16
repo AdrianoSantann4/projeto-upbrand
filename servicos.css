@@ -7,17 +7,25 @@
     --transicao: all 0.4s ease;
 }
 
-* { margin: 0;
+
+
+    * { margin: 0;
     padding: 0; 
     box-sizing: border-box; 
-    font-family: 'Segoe UI', sans-serif; }
-    
+    font-family: 'Segoe UI', sans-serif; 
+}
+
+
+
 
 /*menu de navegação*/
 .menu-hamburguer{
     display: none;
 }
 
+    .menu-list.active {
+        display: flex;
+    }
 
 .menu {
     background-color:#080808;
@@ -49,16 +57,17 @@
     text-decoration: none;
     justify-content: end;
     padding-top: 10px;
-    color: white;
+    color: var(--branco);
 
 }
 
 
 .menu-list a:hover {
     cursor: pointer;
-    color: red;
+    color:var(--vermelho-upbrand);
     transition: 0.4s;
 }
+
 
 
 body { 
@@ -82,7 +91,7 @@ body {
 
 /* Seções */
 section { 
-    padding: 80px 10%; 
+    padding: 40px 5%; 
     
 }
 
@@ -95,7 +104,7 @@ h2 {
 /* Grid de Serviços */
 .grid-servicos { 
     display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); 
     gap: 30px; 
 }
 .card-servico { 
@@ -191,9 +200,7 @@ footer {
     background: var(--preto); 
     color: rgb(159, 155, 155);
     padding: 80px 10%; 
-    text-align: center; }
+    text-align: center; 
+}
 
-
-
-
-
+  
