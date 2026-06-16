@@ -28,8 +28,7 @@
     }
 
 .menu {
-    background-color:#080808;
-    display: flex;
+     display: flex;
     justify-content: space-between;
     align-items: center;
     font-weight: 600;
@@ -39,12 +38,13 @@
     position: fixed;
     top: 0;
     left: 0;
+    background-color: #080808;
     z-index: 1000;
 }
 
 
 .menu-list {
-    color: var(--text-color);
+     color: var(--text-color);
     list-style: none;
     display: flex;
     gap: 20px;
@@ -203,4 +203,37 @@ footer {
     text-align: center; 
 }
 
-  
+@media screen and (max-width: 480px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .menu-hamburguer {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+    }
+
+    .menu-list.active {
+        display: flex;
+    }
+
+    .menu-list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        gap: 20px;
+        padding: 20px 0;
+    }
+}
