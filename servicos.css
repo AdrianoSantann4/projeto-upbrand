@@ -14,17 +14,24 @@
     
 
 /*menu de navegação*/
+.menu-hamburguer{
+    display: none;
+}
+
 
 .menu {
-    background-color:var(--preto);
+    background-color:#080808;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 14px;
     width: 100%;
-    padding: 10px 0;
-
+    padding: 15px 2%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 
